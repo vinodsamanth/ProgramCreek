@@ -54,6 +54,14 @@ public class RotateArray {
 		}
 	}
 	
+	
+/*	
+    Logic Used:
+    1. Divide the array two parts: 1,2,3,4 and 5, 6
+	2. Rotate first part: 4,3,2,1,5,6
+	3. Rotate second part: 4,3,2,1,6,5
+	4. Rotate the whole array: 5,6,1,2,3,4*/
+	
 	public void rotateArray(int value){
 		if(length == 1 || length == value)
 			return;
